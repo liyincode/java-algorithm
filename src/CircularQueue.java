@@ -3,13 +3,13 @@ import java.util.Arrays;
 /**
  * 基于数组的 环形队列
  */
-public class CircularQueque {
+public class CircularQueue {
     private String[] items;
     private int n = 0;
     private int head = 0;
     private int tail = 0;
 
-    public CircularQueque(int n) {
+    public CircularQueue(int n) {
         this.items = new String[n];
         this.n = n;
     }
@@ -41,7 +41,7 @@ public class CircularQueque {
     }
 
     public static void main(String[] args) {
-        CircularQueque circularQueque = new CircularQueque(7);
+        CircularQueue circularQueque = new CircularQueue(7);
         circularQueque.enqueque("a");
         circularQueque.dequeque("a");
 

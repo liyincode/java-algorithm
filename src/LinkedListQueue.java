@@ -2,7 +2,7 @@
  * 基于链表的队列
  * 头出尾进
  */
-public class LinkedListQueque {
+public class LinkedListQueue {
     private class Node {
         public String data;
         public Node next;
@@ -61,7 +61,7 @@ public class LinkedListQueque {
     }
 
     public static void main(String[] args) {
-        LinkedListQueque linkedListQueque = new LinkedListQueque();
+        LinkedListQueue linkedListQueque = new LinkedListQueue();
         linkedListQueque.enqueque("a");
         linkedListQueque.enqueque("b");
         linkedListQueque.dequeque();
